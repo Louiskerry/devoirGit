@@ -1,0 +1,15 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+
+footer h3{
+	text-align: center;
+}
+
+footer{
+	margin: opx;
+	padding: opx;
+	background-color: white;
+}

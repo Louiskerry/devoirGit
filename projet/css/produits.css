@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #FFD9D9;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+nav{
+    background: orange;
+    width: 100%;
+    overflow: auto;
+}
+nav p{
+    text-align: center;
+}
+ul{
+    margin: 0;
+    position: 0;
+    list-style: none;
+}
+li{
+    float: right;
+}
+nav a{
+    width: 90px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: #454545;
+    font-size: 15px;
+    color: orchid;
+    padding: 20px 10px;
+    justify-content: last baseline;
+    padding: 3px 2px;
+    margin: 3px 2px;
+    border-radius: 20px;
+}
+footer h2{
+    text-align: center;
+}
+footer{
+    background-color: white;
+}

@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background:url("C:/wamp64/www/projet/images/wp5.jpg") ;
+	background-size: cover;
+
+}
+
+.max-width{
+	max-width: 1300px;
+	padding: 0 80;
+	margin: auto;
+}
+
+/*navbar styling */
+.navbar{
+	position: fixed;
+	width: 100%;
+	padding: 15px 0;
+	background: crimson;
+	font-family: 'ubuntu', sans-serif;
+
+}
+.navbar .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo a{
+	color: #fff;
+	font-size: 35px;
+	font-weight: 600;
+}
+.navbar .logo a span{
+	color: black;
+}
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar .menu li a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 25px;
+	transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+	color: crimson;
+}
+
+/* home section styling*/
+
+.home .max-width{
+	margin: auto 0 auto 40px;
+	padding: 10px;
+}
+.home .home-content .text-1{
+	font-size: 37;
+	padding: 10px;
+}
+.home .home-content .text-2{
+	font-size: 75px;
+	font-weight: 600;
+	margin-left: -3px;
+	padding: 40px;
+}
+.home .home-content .text-3{
+	font-size: 27;
+	margin: 5px 0;
+}
+.home .home-content .text-3 span{
+	color: blue;
+	font-weight: 500;
+}
+
+.home .home-content a{
+	display: inline-block;
+	background: crimson;
+	color: #fff;
+	font-size: 25px;
+	padding: 12px 36px;
+	margin-top: 20px;
+	border-radius: 6px;
+	border: 2px solid crimson;
+	transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+	color: #fff;
+	background: none;
+}
+
+footer h1{
+      text-align: center;
+}
+footer{
+	background-color: white;
+}

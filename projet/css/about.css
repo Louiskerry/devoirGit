@@ -1,0 +1,47 @@
+body{
+	padding: 0px;
+	background: #FFD9D8;
+	background-image: url(C:/wamp64/www/projet/images/ingre1.jpg);
+	font-family: initial;
+	display: flex;
+	justify-content: center;
+	color: #303031;
+}
+div h1{
+	background-color: blue;
+}
+
+div p{
+	font-size: 25px;
+	background-color: white;
+	font-family: fantasy;
+
+}
+label{
+	background-color: white;
+	font-family: cursive;
+}
+
+.contactez-nous{
+	width: 800px;
+	border: 1px solid;
+	border-radius: 8px;
+	padding: o 50px 0 50px;
+	background: white;
+}
+
+.contactez-nous p{
+	font-weight: 400px;
+	color: forestgreen;
+}
+
+.Vos commentaire{
+	font-weight: bold;
+	color: black;
+}
+footer h2{
+    text-align: center;
+}
+footer{
+    background-color: white;
+}

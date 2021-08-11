@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>rentrer en contact ici</title>
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+</head>
+<body>
+	<div class="contactez-nous">
+		<h1>contactez-nous</h1>
+		<p>un probleme, une question, envie de nous envoyer un message d'amour? N'hesitez pas a utiliser ce formulaire pour prendre contact avec avec nous !</p>
+		<form action="/page-traitement-donnees" method="post">
+			<div>
+				<label for="nom">votre nom</label>
+				<input type="text" id="nom" name="nom" placeholder="keke" required="">
+			</div>
+			<br>
+
+			<div>
+				<label for="email">votre e-mail</label>
+				<input type="email" id="email" name="email" placeholder="monadresse@mail.com" required="">
+			</div>
+			<br>
+
+			<div>
+				<label for="sujet">Quel est le sujet de votre message ?</label>
+				<select name="sujet" id="sujet" required="">
+					<option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+					<option value="probleme-compte">probleme avec mon compte</option>
+					<option value="question-produit">question a propos d'un produit</option>
+					<option value="suivi-commande">suivi de ma commande</option>
+					<option value="autre">Autre...</option>
+				</select>
+			</div>
+			<br>
+
+			<div>
+				<label for="message">votre message</label>
+				<textarea id="message" name="message" placeholder="Bonjour, je vous contacte car..." required=""></textarea>
+			</div>
+			<div>
+				<br>
+				
+				<button type="submit">Envoyer mon message</button>
+			</div>
+		</form>
+	</div>
+	<br>
+	<br>
+			
+
+</body>
+</html>
